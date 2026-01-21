@@ -1,5 +1,5 @@
 # Operating-Systems-Project-1
-This is the first project for our Operating Systems course at Florida State University. The following are the project obejectives:
+This is the first project for our Operating Systems course at Florida State University. The following are the project objectives:
 
 
  1. Design and develop a shell interface that supports input/output redirection, piping, background processing, and a set of built-in functions.
