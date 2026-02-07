@@ -17,7 +17,7 @@ int lexer_main()
 
 		tokenlist *tokens = get_tokens(input);
 		for (size_t i = 0; i < tokens->size; i++) {
-			printf("token %d: (%s)\n", i, tokens->items[i]);
+			printf("token %zu: (%s)\n", i, tokens->items[i]);
 		}
 
 		free(input);
@@ -84,7 +84,7 @@ tokenlist *get_tokens(char *input) {
 }
 
 void free_tokens(tokenlist *tokens) {
-	for (int i = 0; i < tokens->size; i++)
+	for (size_t i = 0; i < tokens->size; i++)
 		free(tokens->items[i]);
 	free(tokens->items);
 	free(tokens);
