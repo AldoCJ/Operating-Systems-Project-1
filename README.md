@@ -9,7 +9,7 @@ This is the first project for our Operating Systems course at Florida State Univ
 
 ## Group Members
 - **Aldo Caceres**: ac22t@fsu.edu
-- **Noah Seay**: example@fsu.edu
+- **Noah Seay**: njs23c@fsu.edu
 - **Dimitrije Jaksic**: example@fsu.edu
 ## Division of Labor
 
@@ -42,20 +42,17 @@ This is the first project for our Operating Systems course at Florida State Univ
 - **Assigned to**: Dimitrije Jaksic
 
 ### Part 8: Background Processing
-- **Responsibilities**: [Description]
+- **Responsibilities**: Coding, Implementing, and Testing
 - **Assigned to**: Aldo Caceres
 
 ### Part 9: Internal Command Execution
-- **Responsibilities**: [Description]
+- **Responsibilities**: Coding, Implementing, and Testing
 - **Assigned to**: Noah Seay, Aldo Caceres
 
 ### Part 10: External Timeout Executable
-- **Responsibilities**: [Description]
+- **Responsibilities**: Coding, Implementing, and Testing
 - **Assigned to**: Aldo Caceres, Noah Seay, Dimitrije Jaksic
 
-### Extra Credit
-- **Responsibilities**: [Description]
-- **Assigned to**: Alex Brown
 
 ## File Listing
 ```
@@ -66,11 +63,17 @@ shell/
 │ └── lexer.c
 │
 ├── include/
+│ ├── job.h
 │ └── lexer.h
 │
 ├── README.md
 └── Makefile
 ```
+
+main.c : Where the main shell process logic is handled, most code is here
+lexer.c : Given, code is used to tokenize inputs
+job.h : Header file used to define a job_list with jobs
+lexer.h : Given, header file for lexer.c 
 ## How to Compile & Execute
 
 ### Requirements
@@ -78,27 +81,28 @@ shell/
 - **Dependencies**: None
 
 ### Compilation
-For a C/C++ example:
 ```bash
 make
 ```
 This will build the executable in ...
 ### Execution
 ```bash
-make run
+shell.o
 ```
 This will run the program ...
-
+```bash
+./bin/shell
+```
 ## Development Log
 Each member records their contributions here.
 
 ### Aldo Caceres
 
-| Date       | Work Completed / Notes |
-|------------|------------------------|
-| 2026-01-26 | Completed Part 1 and Part 2  |
-| YYYY-MM-DD | [Description of task]  |
-| YYYY-MM-DD | [Description of task]  |
+| Date       | Work Completed / Notes                         |
+|------------|------------------------------------------------|
+| 2026-01-26 | Completed Part 1 and Part 2                    |
+| 2026-02-07 | Completed Part 8 and Part 9                    |
+| 2026-02-09 | Completed documentation and did final testing  |
 
 ### Noah Seay
 
@@ -124,20 +128,16 @@ Document in-person meetings, their purpose, and what was discussed.
 
 | Date       | Attendees            | Topics Discussed | Outcomes / Decisions |
 |------------|----------------------|------------------|-----------------------|
-| YYYY-MM-DD | [Names]              | [Agenda items]   | [Actions/Next steps]  |
-| YYYY-MM-DD | [Names]              | [Agenda items]   | [Actions/Next steps]  |
+| YYYY-MM-DD | Aldo, Noah, Dimitrije   | Plan out project, assign roles   | start working on assined parts  |
+| 2026-02-09 | Aldo, Noah, Dimitrije   | Do final checks for submission  | Submit project  |
 
 
 ## Bugs
-- **Bug 1**: This is bug 1.
-- **Bug 2**: This is bug 2.
-- **Bug 3**: This is bug 3.
+No known bugs
 
 ## Extra Credit
-- **Extra Credit 1**: [Extra Credit Option]
-- **Extra Credit 2**: [Extra Credit Option]
-- **Extra Credit 3**: [Extra Credit Option]
+No extra credit
 
 ## Considerations
-[Description] 1213e
+[Description]
 

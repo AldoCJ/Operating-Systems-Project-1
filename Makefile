@@ -2,15 +2,19 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Iinclude -g
 
+# Output directory
+BIN_DIR = bin
+
 # Source files
 SRC = $(wildcard src/*.c)
 OBJ = $(SRC:.c=.o)
-OUT = shell
+OUT = $(BIN_DIR)/shell
 
 # Build target
 all: $(OUT)
 
 $(OUT): $(OBJ)
+	mkdir -p $(BIN_DIR)
 	$(CC) $(CFLAGS) $(OBJ) -o $(OUT)
 
 # Compile .c → .o
@@ -19,4 +23,5 @@ src/%.o: src/%.c
 
 # Clean build artifacts
 clean:
-	rm -f $(OBJ) $(OUT)
+	rm -f $(OBJ)
+	rm -rf $(BIN_DIR)
