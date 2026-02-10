@@ -26,11 +26,11 @@ This is the first project for our Operating Systems course at Florida State Univ
 - **Assigned to**: Dimitrije Jaksic
 
 ### Part 4: $PATH Search
-- **Responsibilities**: [Descripti
+- **Responsibilities**: Coding, Implementing, and Testing
 - **Assigned to**: Noah Seay
 
 ### Part 5: External Command Execution
-- **Responsibilities**: [Description]
+- **Responsibilities**: Coding, Implementing, and Testing
 - **Assigned to**: Noah Seay
 
 ### Part 6: I/O Redirection
@@ -102,12 +102,12 @@ Each member records their contributions here.
 
 ### Noah Seay
 
-| Date       | Work Completed / Notes |
-|------------|------------------------|
-| YYYY-MM-DD | [Description of task]  |
-| YYYY-MM-DD | [Description of task]  |
-| YYYY-MM-DD | [Description of task]  |
-
+| Date       | Work Completed / Notes                                                   |
+|------------|--------------------------------------------------------------------------|
+| 2026-02-05 | Started, completed, and tested part 4                                    |
+| 2026-02-06 | Reviewed parts 1-4, started part 5                                       |
+| 2026-02-07 | Completed and tested part 5                                              |
+| 2026-02-09 | Reviewed and tested everything with my group, wrote down my contribution |
 
 ### Dimitrije Jaksic 
 
