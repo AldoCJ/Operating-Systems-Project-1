@@ -22,11 +22,11 @@ This is the first project for our Operating Systems course at Florida State Univ
 - **Assigned to**: Aldo Caceres
 
 ### Part 3: Tilde Expansion
-- **Responsibilities**: [Description]
+- **Responsibilities**:  Coding and Testing
 - **Assigned to**: Dimitrije Jaksic
 
 ### Part 4: $PATH Search
-- **Responsibilities**: [Description]
+- **Responsibilities**: [Descripti
 - **Assigned to**: Noah Seay
 
 ### Part 5: External Command Execution
@@ -34,12 +34,12 @@ This is the first project for our Operating Systems course at Florida State Univ
 - **Assigned to**: Noah Seay
 
 ### Part 6: I/O Redirection
-- **Responsibilities**: [Description]
+- **Responsibilities**: Coding and Testing, Integrating in existing structure
 - **Assigned to**: Dimitrije Jaksic
 
 ### Part 7: Piping
-- **Responsibilities**: [Description]
-- **Assigned to**: Dimitrije Jaksic, Aldo Caceres
+- **Responsibilities**: Coding and Testing, Integrating in existing structure
+- **Assigned to**: Dimitrije Jaksic
 
 ### Part 8: Background Processing
 - **Responsibilities**: [Description]
@@ -111,11 +111,12 @@ Each member records their contributions here.
 
 ### Dimitrije Jaksic 
 
-| Date       | Work Completed / Notes |
-|------------|------------------------|
-| YYYY-MM-DD | [Description of task]  |
-| YYYY-MM-DD | [Description of task]  |
-| YYYY-MM-DD | [Description of task]  |
+| Date       | Work Completed / Notes                   |
+|------------|------------------------------------------|
+| 2026-02-05 | Reviwed Parts 1 and 2, Started Part 3    |
+| 2026-02-06 | Completed part 3, Reviwed Parts 4 and 5  |
+| 2026-02-08 | Completed part 6, Started Part 7         |
+| 2026-02-09 | Completed part 7, Tested All Parts       |
 
 
 ## Meetings
@@ -138,5 +139,5 @@ Document in-person meetings, their purpose, and what was discussed.
 - **Extra Credit 3**: [Extra Credit Option]
 
 ## Considerations
-[Description]
+[Description] 1213e
 
